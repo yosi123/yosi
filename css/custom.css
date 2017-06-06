@@ -1,0 +1,215 @@
+body{
+   
+    font-family: 'Open Sans',sans-serif;
+   
+
+}
+
+#cv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#profile{
+    background: #1e1e1e;
+    color: aqua;
+    padding: 25px;
+    
+}
+#intro{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a5a5a5;
+    
+}
+
+#intro img
+{  
+ border-radius:50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    
+}
+
+#intro header {
+     text-transform: uppercase;
+    padding: 20px;
+}
+
+#intro header h1{
+
+    font-weight: 300;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+#intro header h2{
+  
+    font-weight: 600;
+    color: #d07628;
+    font-size: 70px;
+    margin: 0;
+    
+}
+#intro header h3{
+    
+    margin: 9;
+    color: #fff;
+    font-weight: 400;
+}
+
+#about{
+    border-left: 2px solid #a5a5a5;
+    padding: 15px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+#contact-info
+{
+    display:flex;
+    margin-right: 20px;
+    padding-right: 100px;
+    border-bottom: 2px solid #a5a5a5;
+}
+
+#contact-info ul 
+{
+    list-style: none;
+    padding-left:10px;
+}
+
+#social-network {
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+#part2{  
+    display: flex;
+}
+
+#experince h1{
+    margin-left: 50px;
+}
+
+#experince div {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#experince div p{
+    margin-left: 220px;
+}
+
+#experince div h3{
+    color: dodgerblue
+}
+
+
+
+#pk{
+    display: grid;
+}
+
+#proskills1{  
+    background-color: cornflowerblue;
+}
+
+#proskills1 h1{
+     margin-left: 50px;
+}
+
+#proskills1 p{
+    margin-left: 50px;
+}
+
+#proskills1 p progress{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+
+#proskills2{
+   background-color: darkgoldenrod;
+}
+
+#proskills2 h1{
+     margin-left: 50px;
+}
+
+#proskills2 p{
+    margin-left: 50px;
+}
+
+#proskills2 p progress{
+    margin-left: 50px;
+}
+
+#part3{
+background-color:darkgrey; 
+}
+
+#education{
+    display: grid;
+}
+
+#education h1{
+    margin-left: 50px;
+}
+#education h3{
+    color: dodgerblue;
+    margin-left: 50px;
+}
+
+#education p{
+     margin-left: 200px;
+}
+
+
+
+#part4{
+    display: flex;
+    flex-direction: row;
+}
+ 
+#language{
+    background-color:antiquewhite;
+    padding-left: 30px;
+    display: grid;
+    width: 40%;
+}
+
+
+#Paragraphs2 progress{
+    margin-left: 50px;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+#hobbies{
+   width: 70%;
+}
+
+#hobbies h1{
+    margin-left: 10px;
+}
+
+#hobicon {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
